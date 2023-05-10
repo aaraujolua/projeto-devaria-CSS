@@ -6,28 +6,50 @@
     <meta name="keywords" content="Devaria, programação, formação, aulas a vivo, desenvolvimento de sistemas"/>
     <meta name="author" content="Luana Araújo"/>
     <meta http-equiv="refresh" content="300"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="public/css/devaria.css"/>
+    <link rel="stylesheet" href="public/css/header.css"/>
+    <link rel="stylesheet" href="public/css/index.css"/>
     <title>Olá mundo</title>
+    <!-- *ESSA É UMA DAS FORMAS DE ESTILIZAR A PÁGINA*
+    <style>
+        h1 {
+            color:chartreuse;
+        }
+
+        a {
+            color:blue;
+        }
+    </style>
+    -->
     </head>
     <body>
         <header>
-            <h1>Olá mundo! Essa é a minha primeira página web :3 </h1>
-            <nav>
+            <!-- *INLINE STYLE*
+            <h1 style="color:purple";>Olá mundo! Essa é a minha primeira página web :3 </h1>
+            -->
+            <!-- <nav class="color-red"> -->
+            <a href="index.html" class="link-logo">
+                <img src="public/fotos/logo-devaria.svg" alt="Logo Devaria">
+            </a>
+            <nav class="menu">
                 <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Professores.html">Professores</a></li>
-                <li><a href="FaleConosco">Fale Conosco</a></li>
-                <li><a href="Devstars.html">Devstars</a></li>
+                    <!-- <li><a href="index.html" id="id-home">Home</a></li> -->
+                    <li><a href="Professores.html">Professores</a></li>
+                    <li><a href="FaleConosco">Fale Conosco</a></li>
+                    <li><a href="Devstars.html">Devstars</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section>
+            <h1 class="title";>Olá mundo! Essa é a minha primeira página web :3</h1>        
+            <section class="cover-container">
                 <figure>
-                    <img src="Fotos/devaria.png" width="450" alt="Devaria é a melhor escola de programação"/>
+                    <img src="public/fotos/devaria.png" width="100%" alt="Devaria é a melhor escola de programação"/>
                     <figcaption>Foto olá mundo Devaria!</figcaption>
                 </figure>
                 </section>
-        <!-- Como colocar um vídeo direto na página?
+        <!-- *Como colocar um vídeo direto na página?*
            <video width="320" height="240" controls="controls">
             <source src="pasta/nome_video.tipo(mp4)" type="mp4">
            </video>

@@ -1,0 +1,17 @@
+/* FORMA DE ESTILIZAÇÃO POR LINK (CLASS & ID)
+.color-red {
+    color:red;
+}
+
+.color-red ul li a {
+    color:black;
+}
+
+#id-home {
+    color:pink;
+} 
+*/
+.cover-container figure img {
+    width: 100%;
+
+}
