@@ -16,5 +16,11 @@
 }
 
 .div {
-    padding: 2%;
+    padding: 2% ;
+}
+
+@media screen and (min-width: 992px) {
+    .div {
+        padding: 15% ;
+    }
 }
