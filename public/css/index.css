@@ -11,6 +11,19 @@
     color:pink;
 } 
 */
+
+main {
+    text-align: center;
+}
+
+main h3.title {
+    font-size: 1.1em;
+}
+
+main section abbr {
+    color: #25cdb3;
+}
+
 .cover-container figure img {
     width: 100%;
 }
@@ -21,6 +34,19 @@
 
 @media screen and (min-width: 992px) {
     .div {
-        padding: 0 25% ;
+        padding: 2% 25% ;
+    }
+
+    .cover-container, .div {
+        width: 45%;
+        display: inline-block;
+    }
+
+    main .section-blockquote blockquote {
+        width: 65%;
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+
     }
 }

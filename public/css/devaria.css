@@ -1,7 +1,17 @@
 /*ESTILOS PADRÃO PARA TODAS AS PÁGINAS*/
 
 html {
-    height:"500px";
+    height:"100%";
+}
+
+.title {
+    padding: 0 20px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+
+h1.title {
+    margin: 40 auto 20px;
 }
 
 body {
