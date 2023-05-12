@@ -1,0 +1,24 @@
+.content-container {
+    padding: 20px;
+}
+
+.content-container div img {
+    width: 100%;
+    border-radius: 15px;
+    border: outset;
+}
+
+.content-container h2.title {
+    font-size: 1.5em;
+}
+
+.article-professores p {
+    text-align: justify;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .content-container div img {
+        width: 50%;
+    }
+}
