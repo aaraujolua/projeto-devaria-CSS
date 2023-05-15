@@ -33,9 +33,9 @@ main section abbr {
         padding: 2% 25% ;
     }
 
-    .cover-container, .div {
-        width: 45%;
-        display: inline-block;
+    .cover-container {
+        width: 50%;
+        margin: auto;
     }
 
     main .section-blockquote blockquote {
@@ -45,4 +45,11 @@ main section abbr {
         text-align: center;
 
     }
+
+    .div {
+        width: 42%;
+        margin: auto;
+    }
 }
+
+

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="public/css/devaria.css"/>
     <link rel="stylesheet" href="public/css/footer.css"/>
     <link rel="stylesheet" href="public/css/header.css"/>
+    <link rel="stylesheet" href="public/css/fale-conosco.css"/>
     <title>Fale Conosco</title>
     </head>
     <body>
@@ -24,42 +25,42 @@
         </header>
         <main>
             <h1 class="title text-center">Entre em contato com a Devaria!</h1>
-            <h2>Para falar com a gente preencha as seguintes informações:</h2>
-            <form action="index.html">
-                <p>
+            <h2 class="sub-title text-center">Para falar com a gente preencha as seguintes informações:</h2>
+            <form action="index.html" class="contact-form">
+                <div>
                     <label>Nome:</label><input type="text"  name="Nome" maxlength="70"/>
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>E-mail:</label><input type="text" name="Email" maxlength="150"/>
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>Comentários:</label>
                     <textarea name="Comentarios" cols="50" rows="4"></textarea>
-                </p> 
-                <p> 
+                </div> 
+                <div> 
                     <label>Gênero:</label>
-                    <input type="radio" name="Genero"/><label>Femninino</label>
-                    <input type="radio" name="Genero"/><label>Masculino</label>
-                    <input type="radio" name="Genero"/><label>Não-binárie</label>
-                    <input type="radio" name="Genero"/><label>Outro</label>
-                </p>
-                <p>
+                    <input type="radio" name="Genero"/><span>Femninino</span> <br>
+                    <input type="radio" name="Genero"/><span>Masculino</span> <br>
+                    <input type="radio" name="Genero"/><span>Não-binárie</span> <br>
+                    <input type="radio" name="Genero"/><span>Outro</span> <br>
+                </div>
+                <div>
                     <label>Como você conheceu a Devaria?</label>
                     <select name="Conheceu">
-                    <option selected>Youtube</option>
                     <option>Amigos</option>
-                    <option>Google</option>
+                    <option selected>Google</option>
+                    <option>Youtube</option>
                     <option>Outro</option>
                     </select>
-                </p>
-                <p>
+                </div>
+                <div>
                     <input type="checkbox" name="Novidades" value="Aceito"/>
                     <label>Aceito receber novidades da Devaria.</label>
-                </p>
-                <p>
+                </div>
+                <div>
                     <input type="submit" name="Enviar" value="Enviar"/>
                     <input type="reset" name=" Limpar" value="Limpar"/>
-                </p>
+                </div>
             </form>
         </main>
         <footer>
