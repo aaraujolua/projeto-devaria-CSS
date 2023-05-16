@@ -1,3 +1,33 @@
-h3.subt-title {
-    margin-top: 20px;
+h3.sub-title.text-center {
+    margin: 20px 2%;
+    color: #3bd42d;
 }
+
+table thead tr th,
+table tbody tr td {
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #5e49dd;
+    color:#25cbd3
+    
+}
+
+table thead tr th {
+    color: #fff;
+
+}
+
+table {
+    margin: auto;
+}
+
+.div-iframe iframe {
+   width: 90%;
+   margin: 0 4%;
+    
+}
+
+
+
