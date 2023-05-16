@@ -29,5 +29,13 @@ table {
     
 }
 
+@media screen and (min-width: 992px) {
+    .div-iframe iframe {
+        width: 80%;
+        margin: 0 5%;
+        position: relative;
+        left: 5%;
+    }
+}
 
 
